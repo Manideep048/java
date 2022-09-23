@@ -53,11 +53,11 @@ class sum
             else if(c==3)
             {
                 System.out.print("Enter the first string:");
-                String k1 = s.nextLine();
-              //  char k1=str.charAt(0);
+                String k1 = s.next();
+                //  char k1=str.charAt(0);
                 System.out.print("Enter the second string:");
-                String l = s.nextLine();
-              //  char l=str1.charAt(0);
+                String l = s.next();
+                //  char l=str1.charAt(0);
                 ad.Add(k1,l);
             }
             else if(c==4)
